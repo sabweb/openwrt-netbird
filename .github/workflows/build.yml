@@ -108,7 +108,10 @@ jobs:
           cp -rf ../netbird ./package/
           sed -i "1i\\src-link netbird $(pwd)/package" feeds.conf.default
 
-          ./scripts/feeds update -a
+          for i in 1 2 3 4 5; do
+            ./scripts/feeds update -a && break
+            echo "feeds update failed; retry $i/5"; sleep 10
+          done
           if [ -d ./feeds/packages/lang/golang ]; then
             rm -rf ./feeds/packages/lang/golang
             git clone --depth=1 -b 25.x https://github.com/sbwml/packages_lang_golang ./feeds/packages/lang/golang
