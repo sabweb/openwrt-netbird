@@ -63,7 +63,7 @@ jobs:
 #          - arch: "arm_cortex-a15"
 #            sdk: "https://downloads.openwrt.org/releases/23.05.4/targets/ipq806x/generic/openwrt-sdk-23.05.4-ipq806x-generic_gcc-12.3.0_musl_eabi.Linux-x86_64.tar.xz"
           - arch: "aarch64_cortex-a53"
-            sdk: "https://downloads.openwrt.org/releases/25.12.0-rc4/targets/bcm27xx/bcm2710/openwrt-sdk-25.12.0-rc4-bcm27xx-bcm2710_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
+            sdk: "https://downloads.openwrt.org/releases/25.12.0/targets/bcm27xx/bcm2710/openwrt-sdk-25.12.0-bcm27xx-bcm2710_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
 #          - arch: "aarch64_cortex-a72"
 #            sdk: "https://downloads.openwrt.org/releases/23.05.4/targets/bcm27xx/bcm2711/openwrt-sdk-23.05.4-bcm27xx-bcm2711_gcc-12.3.0_musl.Linux-x86_64.tar.xz"
 #          - arch: "arm_cortex-a7_neon-vfpv4"
