@@ -4,7 +4,7 @@
 
 OpenWrt package for [netbird](https://github.com/netbirdio/netbird)
 
-Adapted to work with openwrt 25.12.x
+Adapted to work with openwrt 25.12.4
 
 ## Usage
 
