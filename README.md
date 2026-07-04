@@ -1,6 +1,6 @@
 # openwrt-netbird for BananaPi R4
 
-[![GitHub Actions](https://github.com/messense/openwrt-netbird/workflows/CI/badge.svg)](https://github.com/messense/openwrt-netbird/actions?query=workflow%3ACI)
+[![GitHub Actions](https://github.com/sabweb/openwrt-netbird/workflows/build/badge.svg)](https://github.com/sabweb/openwrt-netbird/actions?query=workflow%3ACI)
 
 OpenWrt package for [netbird](https://github.com/netbirdio/netbird)
 
